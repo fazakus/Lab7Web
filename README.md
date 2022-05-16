@@ -152,3 +152,27 @@ Kondisi SWITCH adalah percabangan / pemilihan dimana kita membandingkan isi sebu
 Tampilan outputnya.<br>
 ![Kondisi Switch](Pic/kondisi_switch.png)<br>
 
+
+## Perulangan For
+Perulangan for digunakan untuk membuat sebuah perulangan dengan batas yang ditentukan / diketahui. Disini saya akan membuat file baru dengan nama <b>perulangan_for.php</p> dan dengan syntax berikut.<br>
+```
+    <?php 
+    echo "Perulangan 1 sampai 10 <br />"; 
+    for ($i=1; $i<=10; $i++) { 
+        echo "Perulangan ke: " . $i . '<br />'; 
+    } 
+    
+    echo '<hr>';
+
+    echo "Perulangan Menurun dari 10 ke 1 <br />"; 
+    for ($i=10; $i>=1; $i--) { 
+        echo "Perulangan ke: " . $i . '<br />'; 
+    } 
+    ?>
+```
+
+Tampilan output.<br>
+![Perulangan For](Pic/perulangan_for.png)<br>
+
+
+## Perulangan While
