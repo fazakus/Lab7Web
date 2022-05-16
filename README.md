@@ -176,3 +176,20 @@ Tampilan output.<br>
 
 
 ## Perulangan While
+Perulangan while hampir sama dengan perulangan for, hanya saja bedanya adalah untuk perulangan while tidak diketahui batasnya. Saya membuat file baru dengan nama <b>perulangan_while</b> dengan syntax berikut.<br>
+```
+    <?php 
+    echo "Perulangan 1 sampai 10 <br />"; 
+    $i=1; 
+    while ($i<=10) { 
+        echo "Perulangan ke: " . $i . '<br />'; 
+        $i++; 
+    } 
+    ?>
+```
+
+Tampilan output. <br>
+![Perulangan While](Pic/perulangan_while.png)<br>
+
+
+## Perulangan Do While
