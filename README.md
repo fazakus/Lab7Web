@@ -129,3 +129,26 @@ Tampilan output<br>
 ![Kondisi IF](Pic/kondisi_if.png)<br>
 
 ## Kondisi Switch
+Kondisi SWITCH adalah percabangan / pemilihan dimana kita membandingkan isi sebuah variabel dengan beberapa nilai. Disini saya membuat file baru dengan nama <b>kondisi_switch.php</b>. Berikut syntaxnya.<br>
+```
+    <?php 
+    $nama_hari = date("l"); 
+    switch ($nama_hari) { 
+        case "Sunday": 
+            echo "Minggu"; 
+            break; 
+        case "Monday": 
+            echo "Senin"; 
+            break;
+        case "Tuesday": 
+            echo "Selasa"; 
+            break; 
+        default: 
+            echo "Sabtu"; 
+        }
+    ?>
+```
+
+Tampilan outputnya.<br>
+![Kondisi Switch](Pic/kondisi_switch.png)<br>
+
