@@ -193,3 +193,8 @@ Tampilan output. <br>
 
 
 ## Perulangan Do While
+Perulangan while dan do-while pada dasarnya hampir sama. Perbedaan terletak pada <i>lokasi</i> pengecekan kondisi perulangan.<br>
+Dalam struktur while, pengecekan untuk kondisi perulangan di lakukan di awal, sehingga jika kondisi tidak terpenuhi, maka perulangan tidak akan pernah dijalankan. Namun pada perulangan do-while, pengecekan kondisi akan dilakukan di akhir perulangan, sehingga walaupun kondisi adalah FALSE, perulangan akan tetap berjalan minimal 1 kali. Disini saya membuat file baru dengan nama <b>perulangan_do_while.php</b> dengan syntax berikut.<br>
+![Perulangan Do While](Pic/perulangan_do_while.png)<br>
+
+## 
