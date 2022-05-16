@@ -22,5 +22,32 @@ Disini saya akan menyesuaikan folder root dierctory web server sesuai dengan fol
 ![Mulai PHP](Pic/dir1.png)<br>
 
 ## PHP Dasar
-Pindah pada direktori yang sudah dibuat tadi dan buat file baru dengan nama <b>php_dasar.php</b>. Pada file ini saya akan mengisinya dengan <i>Hello world</i>
+Pindah pada direktori yang sudah dibuat tadi dan buat file baru dengan nama <b>php_dasar.php</b>. Pada file ini saya akan mengisinya dengan <i>Hello world</i>. Berikut syntaxnya :
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Dasar</title>
+</head>
+<body>
+    <h1>PHP Dasar</h1>
+    <?php
+        echo "Hello World";
+    ?>
+```
 ![Hello World](Pic/helloworld.png)<br>
+
+## Variable PHP
+Disini saya akan membuat variable pada PHP. Untuk variable PHP menggunakan $ untuk mendifinisikan. Berikut adalah syntaxnya
+```
+    <?php 
+        $nim = "312010001"; 
+        $nama = 'Faza Ardan Kusuma'; 
+        
+        echo "NIM : " . $nim . "<br>"; 
+        echo "Nama : $nama"; 
+    ?>
+```

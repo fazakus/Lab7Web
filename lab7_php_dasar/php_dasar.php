@@ -20,6 +20,7 @@
         $nama = 'Faza Ardan Kusuma'; 
         
         echo "NIM : " . $nim . "<br>"; 
-        echo "Nama : $nama"; ?>
+        echo "Nama : $nama"; 
+    ?>
 </body>
 </html>
