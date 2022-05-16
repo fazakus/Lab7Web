@@ -38,6 +38,7 @@ Pindah pada direktori yang sudah dibuat tadi dan buat file baru dengan nama <b>p
         echo "Hello World";
     ?>
 ```
+Berikut outputnya :<br>
 ![Hello World](Pic/helloworld.png)<br>
 
 ## Variable PHP
@@ -51,3 +52,20 @@ Disini saya akan membuat variable pada PHP. Untuk variable PHP menggunakan $ unt
         echo "Nama : $nama"; 
     ?>
 ```
+Berikut outputnya<br>
+![Variable PHP](Pic/menggunakan%20variable.png)<br>
+
+## Predifine Variable
+Pada predifine variable ini saya membuat file baru dengan nama latihan2.php lalu memasukkan syntax berikut.
+```
+    <?php
+        echo "Selamat Datang ".$_GET['nama'];
+    ?>
+```
+Lalu untuk mengaksesnya dengan membuka link berikut :<br>
+http://localhost/Lab7Web/lab7_php_dasar/latihan2.php?nama=Faza<br>
+Berikut outputnya<br>
+![Predifine Variable](Pic/predefine%20variable.png)<br>
+
+
+##
