@@ -68,4 +68,64 @@ Berikut outputnya<br>
 ![Predifine Variable](Pic/predefine%20variable.png)<br>
 
 
-##
+## Membuat Form Input
+Disini saya akan membuat form input. Saya akan membuat file baru dengan nama <b>form_input.php</b>. Berikut syntaxnya
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input</title>
+</head>
+<body>
+    <h2>Form Input</h2>
+    <form method="post"> 
+        <label>Nama: </label> 
+        <input type="text" name="nama"> 
+        <input type="submit" value="Kirim"> 
+    </form> 
+    
+    <?php 
+        echo 'Selamat Datang ' . $_POST['nama']; 
+    ?>
+</body>
+</html>
+```
+Disini saya menggunakan HTML dan PHP, berikut outputnya.<br>
+![Form Input](Pic/form_input.png)<br>
+
+
+## Operator
+Disini yang akan saya buat adalah operator aritmatika, maka disini saya membuat file baru dengan nama <b>operator.php</b>. Untuk syntaxnya sebagai berikut.<br>
+```
+    <?php 
+    $gaji = 1000000; 
+    $pajak = 0.1; $thp = $gaji - ($gaji*$pajak); 
+    echo "Gaji sebelum pajak = Rp. $gaji <br>"; 
+    echo "Gaji yang dibawa pulang = Rp. $thp"; 
+    ?>
+```
+Untuk outputnya, seperti berikut.<br>
+![Operator](Pic/operator.png)<br>
+
+
+## Kondisi If
+Kondisi if dan else digunakan untuk memeriksa suatu nilai, bila TRUE maka kondisi if akan berjalan, bilamana False, maka kondisi ELSE yang akan dijalankan. Disini saya membuat file baru dengan syntax berikut.
+```
+    <?php 
+    $nama_hari = date("l"); 
+    if ($nama_hari == "Sunday") { 
+        echo "Minggu"; 
+    } elseif ($nama_hari == "Monday") { 
+        echo "Senin"; 
+    } else { 
+        echo "Selasa"; 
+    } 
+    ?>
+```
+Tampilan output<br>
+![Kondisi IF](Pic/kondisi_if.png)<br>
+
+## Kondisi Switch
