@@ -154,7 +154,7 @@ Tampilan outputnya.<br>
 
 
 ## Perulangan For
-Perulangan for digunakan untuk membuat sebuah perulangan dengan batas yang ditentukan / diketahui. Disini saya akan membuat file baru dengan nama <b>perulangan_for.php</p> dan dengan syntax berikut.<br>
+Perulangan for digunakan untuk membuat sebuah perulangan dengan batas yang ditentukan / diketahui. Disini saya akan membuat file baru dengan nama <b>perulangan_for.php</b> dan dengan syntax berikut.<br>
 ```
     <?php 
     echo "Perulangan 1 sampai 10 <br />"; 
@@ -197,4 +197,15 @@ Perulangan while dan do-while pada dasarnya hampir sama. Perbedaan terletak pada
 Dalam struktur while, pengecekan untuk kondisi perulangan di lakukan di awal, sehingga jika kondisi tidak terpenuhi, maka perulangan tidak akan pernah dijalankan. Namun pada perulangan do-while, pengecekan kondisi akan dilakukan di akhir perulangan, sehingga walaupun kondisi adalah FALSE, perulangan akan tetap berjalan minimal 1 kali. Disini saya membuat file baru dengan nama <b>perulangan_do_while.php</b> dengan syntax berikut.<br>
 ![Perulangan Do While](Pic/perulangan_do_while.png)<br>
 
-## 
+<hr>
+
+## Tugas Praktikum
+Disini saya diberikan tugas untuk membuat program PHP sederhana dengan menggunakan form input yang menampilkan nama, tanggal lahir dan pekerjaan. Kemudian tampilkan outputnya dengan menghitung umur berdasarkan inputan tanggal lahir. Dan pilihan pekerjaan dengan gaji yang berbeda-beda sesuai pilihan pekerjaan.<br>
+
+## Jawaban
+Saya sudah membuat sesuai dengan tugas dengan 3 pilihan pekerjaan, yaitu : <br>
+<b>Operator</b> dengan gaji Rp. 5.000.000<br>
+<b>Supervisor</b> dengan gaji Rp. 7.500.000<br>
+<b>Manager</b> dengan gaji Rp. 10.000.000<br>
+Berikut adalah outputnya :<br>
+![Tugas](Pic/tugas.png)
